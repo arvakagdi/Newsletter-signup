@@ -40,10 +40,10 @@ app.post("/", function(req, res){
 
     // to post/send data to another server we have to use https.request()
     // to get data from another server we use https.get()
-    const url = 'https://us7.api.mailchimp.com/3.0/lists/f4479be30a'; // us7 is the data center you got assigned, you can check it from your API key
+    const url =  xxx;
     const options = {
         method:"POST",
-        auth: "arvak:a070c525fe9f7d3af668407568b56bdd-us7"
+        auth: "yourAPI KEY 
     }
     
     const request = https.request(url, options,function(response){
@@ -72,11 +72,3 @@ app.post("/failure", function(req, res){  // this will redirect the failure page
 app.listen( process.env.PORT || 3000,function(){
     console.log("Server running on 3000!");
 });
-
-
-
-// API key:  a070c525fe9f7d3af668407568b56bdd-us7
-
-
-//unique id: f4479be30a
-

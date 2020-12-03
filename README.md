@@ -3,3 +3,5 @@ Created a newsletter sign up website that registers user information to sign the
 The website was deployed using Heroku.
 
 Technologies: HTML, CSS, JS, Node.js, express.js
+
+link: https://sheltered-shore-53893.herokuapp.com/
